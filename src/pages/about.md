@@ -3,34 +3,17 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+私はWebエンジニアとして4年間勤務し、PHPとLaravelを中心に8件以上のWebアプリケーションの設計、開発、リリース、運用に携わってきました。受託開発が多く、限られたリソースと時間の中で「設計・実装スピードの速さ」「キャッチアップ力」「高品質なコード」に対して社内から高い評価を受け、他のメンバーからも頼りにされる存在となっています。
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+業務においては、効率化とコード品質の向上に積極的に取り組んでおり、静的解析ツールの導入を提案・適用することで、コードのリーダビリティを向上させ、品質の担保に成功しました。この取り組みにより、コードレビューの負担が軽減され、ミスの早期発見が可能になりました。
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+さらに、進捗管理方法の改善提案を行い、チーム全体の業務効率化を実現しました。この改善によって、プロジェクトの進捗状況がより明確になり、メンバー間のコミュニケーションも円滑になりました。また、ドキュメント管理のテンプレートを作成し、プロジェクト間での情報共有やキャッチアップを促進しました。この取り組みにより、新規メンバーや他プロジェクトメンバーがスムーズにプロジェクト内容を把握できるようになり、作業の一貫性と効率が向上しました。
 
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+設計においては、常にユーザー目線で仕様の問題点を見つけ、解決策を提案することを大切にしています。また、開発ではクリーンなコードを心がけ、拡張性と保守性を最大限に高めるよう努めています。
+
+私が大切にしている考えは、「エンジニアとして、常に技術に対して貪欲であり続け、日々自分の知識を疑い、周りの意見を聞き入れ成長し続ける存在であるべき」ということです。今後もこの姿勢を持ち続け、さらなる成長と貢献を目指していきたいと考えています。
+常に新しい技術や知識を習得し、自分自身のスキルアップを図りながら、組織全体の成長に寄与したいと考えています。具体的には、業務効率の向上やシステムの改善提案を積極的に行い、組織メンバーとのコミュニケーションを通じて、チーム全体の技術力を引き上げることに貢献します。これにより、個々の成長が組織全体の利益に繋がるような持続可能な開発体制を築くことを目指します。
 
 ## Tech Stack
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+PHP | Python | Go | JavaScript | TypeScript | Rust | Laravel | React | Vue | Next.js | Astro | MySQL | Docker | Makefile | Shell | Elasticsearch | Meilisearch

@@ -23,44 +23,26 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
-      <a
-        target="_blank"
-        href="/rss.xml"
-        class="rss-link"
-        aria-label="rss feed"
-        title="RSS Feed"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" class="rss-icon"
-          ><path
-            d="M19 20.001C19 11.729 12.271 5 4 5v2c7.168 0 13 5.832 13 13.001h2z"
-          ></path><path
-            d="M12 20.001h2C14 14.486 9.514 10 4 10v2c4.411 0 8 3.589 8 8.001z"
-          ></path><circle cx="6" cy="18" r="2"></circle>
-        </svg>
-        <span class="sr-only">RSS Feed</span>
-      </a>
-
+      <h1>Wheesnoza</h1>
       <p>
-        AstroPaper is a minimal, responsive, accessible and SEO-friendly Astro
-        blog theme. This theme follows best practices and provides accessibility
-        out of the box. Light and dark mode are supported by default. Moreover,
-        additional color schemes can also be configured.
+        はめまして、Webアプリケーション開発を専門とするソフトウェアエンジニアです！
       </p>
       <p>
-        Read the blog posts or check
-        <LinkButton
-          className="underline decoration-dashed underline-offset-4 hover:text-skin-accent"
-          href="https://github.com/satnaing/astro-paper#readme"
-        >
-          README
-        </LinkButton> for more info.
+        現在は主にLaravelを使用したバックエンド開発に従事していますが、フロントエンド技術も含め、Go、React、Rustなど幅広い言語やフレームワークを扱っています！
+      </p>
+      <p>
+        ソフトウェア開発の様々な側面に携わることで、総合的な視点からプロジェクトに貢献できるよう心がけています。
+      </p>
+      <p>
+        最近は「laravel-ship24」と「laravel-assertable-json-enhancer」というLaravel用パッケージの開発に取り組んでおり、実務で得た知見をオープンソースコミュニティにも還元しています。
+      </p>
+      <p>
+        新しい技術への探求心を大切にしながら、実用的で効率的なソリューションの提供に努めています。共に革新的なプロジェクトに挑戦できる機会を楽しみにしています。
       </p>
       {
-        // only display if at least one social link is enabled
         socialCount > 0 && (
           <div class="social-wrapper">
-            <div class="social-links">Social Links:</div>
+            <div class="social-links">こちらも:</div>
             <Socials />
           </div>
         )
