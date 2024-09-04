@@ -1,4 +1,12 @@
 ---
+const bradcrumbMapper = (breadcrumb: string) => {
+  switch (breadcrumb){
+	case "tags": return "タグ";
+	case "about": return "私について";
+	case "search": return "検索";
+    default: return decodeURIComponent(breadcrumb)
+  }
+}
 // Remove current url path and remove trailing slash if exists
 const currentUrlPath = Astro.url.pathname.replace(/\/+$/, "");
 
@@ -36,13 +44,13 @@ breadcrumbList[0] === "tags" && !isNaN(Number(breadcrumbList[2])) &&
               class={`${index > 0 ? "lowercase" : "capitalize"}`}
               aria-current="page"
             >
-              {console.log(breadcrumb)}
-              {decodeURIComponent(breadcrumb)}
+              {bradcrumbMapper(breadcrumb)}
             </span>
           </li>
         ) : (
           <li>
-            <a href={`/${breadcrumb}/`}>{breadcrumb}</a>
+            {console.log(breadcrumb)}
+            <a href={`/${breadcrumb}/`}>{bradcrumbMapper(breadcrumb)}</a>
             <span aria-hidden="true">&raquo;</span>
           </li>
         )
