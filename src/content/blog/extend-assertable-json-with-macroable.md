@@ -15,7 +15,6 @@ tags:
   - laravel-assertable-json-enhancer
 ogImage: ""
 description: この記事では、AssertableJsonをMacroableを使って拡張する方法について解説します。この記事を通じて、独自のアサーションを追加し、テストの柔軟性を高める手法を学んでいただければと思います。
-canonicalURL: ""
 ---
 
 # はじめに

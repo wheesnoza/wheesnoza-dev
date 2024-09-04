@@ -13,7 +13,6 @@ tags:
   - json
 ogImage: ""
 description: この記事では、Laravel 8以降導入された`AssertableJson`の機能を活用し、特に`where`メソッドに`Closure`を渡すことで、APIテストをより柔軟に行う方法をご紹介します。
-canonicalURL: ""
 ---
 
 # はじめに

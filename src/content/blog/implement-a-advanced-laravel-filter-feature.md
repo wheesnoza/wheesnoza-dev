@@ -11,7 +11,6 @@ tags:
   - Filter
 ogImage: ""
 description: PHPとLaravelを用いて、商品検索の絞り込み機能の実装方法を解説します。具体的には、検索条件を受け取り、条件に基づいてデータベースから商品を絞り込みする方法を紹介します。
-canonicalURL: https://zenn.dev/arsaga/articles/ad20f42ed399ed
 ---
 
 # はじめに
