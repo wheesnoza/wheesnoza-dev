@@ -1,7 +1,7 @@
 ---
 title: Macroableを使ってAssertableJsonを拡張する
 author: wheesnoza
-pubDatetime: 2024-09-05T21:34:19Z
+pubDatetime: 2024-09-05T01:34:19Z
 slug: extend-assertable-json-with-macroable
 featured: true
 draft: false

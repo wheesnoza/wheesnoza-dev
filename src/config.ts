@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://wheesnoza-dev.pages.dev/", // replace this with your deployed domain
   author: "Wheesnoza",
   profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  desc: "Wheesnoza software engineer portfolio.",
   title: "wheesnoza.dev",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -19,10 +19,10 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
+  enable: true,
   svg: true,
-  width: 216,
-  height: 46,
+  width: 80,
+  height: 80,
 };
 
 export const SOCIALS: SocialObjects = [
