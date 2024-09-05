@@ -164,7 +164,6 @@ $response->assertJson(function (AssertableJson $json) {
 
 インストール後、以下のように使うことができます。
 
-
 ```php
 $response = $this->getJson('/api/products');
 
