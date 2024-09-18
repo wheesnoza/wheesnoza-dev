@@ -1,12 +1,12 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://wheesnoza-dev.pages.dev/", // replace this with your deployed domain
+  website: "https://wheesnoza.dev/", // replace this with your deployed domain
   author: "Wheesnoza",
-  profile: "https://satnaing.dev/",
+  profile: "https://wheesnoza.dev/about/",
   desc: "Wheesnoza software engineer portfolio.",
   title: "wheesnoza.dev",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "logo.svg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,
@@ -21,8 +21,8 @@ export const LOCALE = {
 export const LOGO_IMAGE = {
   enable: true,
   svg: true,
-  width: 80,
-  height: 80,
+  width: 60,
+  height: 60,
 };
 
 export const SOCIALS: SocialObjects = [
